@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/order.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-title {
+      text-align: center;
+      font-size: 2em;
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+
+    .contact-card {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .contact-card a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      vertical-align: middle;
+      margin-right: 8px;
+      width: 20px;
+    }
+
+    .underline {
+      border-bottom: 2px solid #2c3e50;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .brands-logos img {
+      max-height: 60px;
+      margin: 10px;
+    }
+
+    .team-section, .brands-section {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .team-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .team-card {
+      width: 250px;
+      padding: 15px;
+      background: #f1f1f1;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .team-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 🌐 Navigation Bar -->
+<!-- 🌐 Navigation Bar -->
+<nav id="home">
+  <a href="index.html">
+    <img src="https://img.icons8.com/ios-filled/24/ffffff/home.png" class="icon" alt="Home" />
+  </a>
+  <a href="#brands">Brands We Work With</a>
+  <a href="#team">Meet Our Team</a>
+</nav>
+
+
+<!-- 📞 Contact Section -->
+<h1 class="contact-title">Contact Us</h1>
+<div class="contact-card">
+  <p>Email: <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+
+  <p>
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png" class="icon" />
+    <a href="tel:+91234567890">+91 23456 7890</a>
+  </p>
+
+  <p>
+    <img src="https://img.icons8.com/ios-glyphs/30/25D366/whatsapp.png" class="icon" />
+    <a href="https://wa.me/91234567890" target="_blank">Chat on WhatsApp</a>
+  </p>
+</div>
+
+<!-- 🏢 Brands Section -->
+<section class="brands-section" id="brands">
+  <div class="container">
+    <h2 class="underline brand-title">Brands We Work With</h2>
+    <div class="brands-logos">
+      <img src="img/Jain-Group.webp" alt="Jain Group">
+      <img src="img/Century-1320x441.webp" alt="Century">
+      <img src="img/Greenply_logo.svg_.webp" alt="Greenply">
+      <img src="img/Greenlam-Laminate.webp" alt="Greenlam">
+    </div>
+  </div>
+</section>
+
+<!-- 👥 Team Section -->
+<section class="team-section" id="team">
+  <div class="container">
+    <h2 class="underline team-title">Meet Our Team</h2>
+    <div class="team-row">
+      <div class="team-card">
+        <img src="img/sanju.jpg" alt="Sanju Gayan" class="team-img" />
+        <h3>Sanju Gayan</h3>
+        <p>Founder & Creative Head — Expert in design strategy, visual aesthetics, and client vision transformation.</p>
+      </div>
+
+      <div class="team-card">
+        <img src="img/7.png" alt="Suyb JK" class="team-img" />
+        <h3>xyz ...</h3>
+        <p>Project Manager — Ensures quality execution of each design and timely delivery for all home decor solutions.</p>
+      </div>
+
+      <div class="team-card">
+        <img src="img/riya.jpg" alt="Riya Sen" class="team-img" />
+        <h3>abc...</h3>
+        <p>Lead Architect — Specializes in modern layouts, material selection, and customer-focused spatial planning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
